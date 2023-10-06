@@ -1,0 +1,352 @@
+*{
+box-sizing: border-box;
+font-family: 'Oswald', sans-serif;
+}
+
+.clearfix:after {
+content: ".";
+display: block;
+clear: both;
+visibility: hidden;
+line-height: 0;
+height: 0;
+}
+
+html{
+font-size: 62.5%;
+}
+
+h1{
+color: #F1f1f1;
+font-size: 5.3rem;
+} 
+
+p{
+color: #F1f1f1;
+font-size: 3rem;
+text-align: center;
+} 
+
+header{
+width: 100%;
+height: 100px;
+background: #66768a;
+}
+
+.left-head{
+width: 48%;
+float: left;
+color: white;
+}
+
+.middle-head{
+width: 4%;
+float: left;
+}
+
+.button{
+color: #66768a;
+text-decoration: none;
+border: 3px solid grey;
+color: solid white;
+background: white;
+border-radius: 5px;
+padding: 1px 9px 1px 9px;
+}
+
+.logoo{
+padding-left: 18px;
+width: 98%;
+}
+
+.txt{
+font-size: 3rem;
+padding-left: 20px;
+
+}
+
+.right-head{
+width: 48%;
+float: left;
+color: white;
+padding-right: 80px;
+}
+
+.flnav{
+float: left;
+}
+
+.frnav{
+float: right;
+}
+
+a{
+color: #aab3be;
+text-decoration: none;
+}
+
+
+li{
+list-style: none;
+display: inline-block;
+}
+
+.main-heading{
+width: 100%;
+background: #66768a;
+text-align: center;
+padding: 1px 500px;
+}
+
+.main-heading h1{
+margin-bottom: 0;
+}
+
+.main-heading p{
+margin-bottom: 0;
+}
+
+.fa-regular{
+font-size: 3rem;
+padding-right: 10px;
+color: #aab3be;
+}
+
+.grey{
+color: #aab3be;
+}
+
+.video{
+font-size: 2rem;
+color: #aab3be;
+}
+
+.why-section{
+width: 100%;
+text-align: center;
+font-size: 3rem;
+padding: 0 450px;
+}
+
+.why-section p{
+color: black;
+}
+
+.img-content{
+width: 100%;
+background: #dbdfe2;
+text-align: center;
+}
+
+.img-content p{
+color: black;
+font-size: 2rem;
+}
+
+.img-content h3{
+font-size: 2rem;
+}
+
+.img-content a{
+border: 3px solid gray;
+padding: 8px 40px 8px 40px;
+font-size: 2rem;
+color: black;
+}
+
+
+.apple{
+width: 100%;
+height: 200px;
+background: #66768a;
+}
+
+
+.half{
+width: 50%;
+float: left;
+height: auto;
+overflow: auto;
+padding: 85px 140px;
+}
+
+.half2{
+width: 50%;
+float: left;
+height: auto;
+padding: 85px 140px;
+overflow: auto;
+}
+
+.volunteer-section{
+width: 100%;
+text-align: center;
+font-size: 3rem;
+padding: 30px 501px;
+}
+
+.volunteer-section p{
+color: black;
+}
+
+footer{
+border: 1px solid black;
+width: 100%;
+background:#161f2a;
+}
+
+.right-side{
+width: 25%;
+float: right;
+}
+
+
+.left-side{
+width: 25%;
+float: left;
+padding-left: 15px;
+color: white;
+}
+
+.left-side ul{
+padding: 0;
+}
+
+.left-side span{
+font-size: 2.3rem;
+}
+
+.space{
+padding-left: 23px;
+}
+
+.vis{
+color: #576578;
+}
+
+.fa-envelope,.fa-twitter,.fa-facebook{
+font-size: 3.2rem;
+padding-left: 5px;
+}
+
+.right-side p{
+font-size: 1.8rem;
+}
+
+.long-bottom{
+width: 96%;
+text-align: center;
+float: left;
+border-top: 2px solid whitesmoke;
+/* needs margin left & right to hide border */
+}
+
+.long-bottom p{
+float: left;
+padding-left: 10px;
+padding-top: 21px;
+}
+
+.long-bottom-right{
+float: right;
+padding-top: 27px;
+width: 4%;
+}
+
+
+@media(max-width:1838px){
+    .applepiece1, .applepiece2{
+        display: none;
+    }
+}
+
+@media(max-width:1830px){
+    .long-bottom-right{
+        display: none;
+    }
+
+
+    .long-bottom{
+        width: 100%;
+    }
+
+}
+
+@media(max-width:1784px){
+    .right-side {
+    }
+}   
+
+@media(max-width:1704px){
+    .volunteer-section {
+        height: auto;
+        overflow: auto;
+        padding: 83px 93px;
+    }
+}   
+
+
+
+@media(max-width:1684px){
+    .main-heading {
+        height: auto;
+        padding: 1px 400px;
+    }
+}   
+
+
+@media(max-width:1526px){
+    .why-section {
+        overflow: auto;
+        height: auto;
+        padding: 0 200px;
+    }
+}
+
+
+
+@media(max-width:1640px){
+    .main-heading {
+        padding: 1px 200px;
+
+    }
+
+}
+
+
+@media(max-width:1170px){
+    .middle-head{
+        display: none;
+    }
+
+    .left-head, .right-head{
+        width: 50%;
+    }
+}
+
+
+@media(max-width:1084px){
+    .img-content{
+        height: auto;
+    }
+
+    .half,.half2{
+        width: 100%;
+    }
+
+    #big,#bigg,#bigge,#bigger{
+        font-size: 3rem;
+    }
+}
+
+
+@media(max-width:798px){
+    .main-heading{
+        padding: 1px 38px;
+    }
+
+    .why-section{
+        padding: 0px 38px;
+    }
+
+}
